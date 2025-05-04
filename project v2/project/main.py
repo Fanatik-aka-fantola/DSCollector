@@ -22,7 +22,6 @@ from project.data.sentiment_analyzer import RussianSentimentAnalyzer
 import os
 import json
 from datetime import datetime
-from huggingface_hub.utils import disable_progress_bars
 
 # Отключаем предупреждения о resume_download
 import warnings
@@ -569,7 +568,7 @@ if __name__ == '__main__':
 
     bot_process = Process(target=run_bot)
     bot_process.start()
-
-    app.run(port=8080, host='127.0.0.1')
+    port = int(os.environ.get("PORT", 5000))
+    app.run(port=port, host='0.0.0.0')
 
     bot_process.terminate()
