@@ -9,7 +9,7 @@ DS - DataSet Collector is a program for parsing tg chats (I will add other socia
 Add the tg bot @DSCollectorBot to your chat, give it administrator rights and register /start, but before that:
 Install all dependencies via the console (pip install -r requirements.txt )
 To start, activate main.py with Administrator rights
-Next, in the browser, go to http://127.0.0.1:8080/
+Next, in the browser, go to http://127.0.0.1:5000/ (OR you can use Tuna https://my.tuna.am/)
 Then it should be clear if you found bugs / something went wrong after all - write here -> serhkapec@gmail.com
 
 #RU
@@ -22,5 +22,5 @@ DSC - DataSetCollector - програмка для парсинга тг-чат�
 Добавьте тг-бота @DSCollectorBot в ваш чат, дайте ему права администратора и пропишите /start, но перед этим:
 Установите все зависимости через консоль (pip install -r requirements.txt)
 Для запуска активируйте main.py с правами Администратора
-Далее в браузере перейдите на http://127.0.0.1:8080/
+Далее в браузере перейдите на http://127.0.0.1:5000/ (ИЛИ можно использовать Tuna https://my.tuna.am/)
 Дальше должно быть понятно, если нашли баги/что-то все-таки пошло не так - пишите сюда -> serhkapec@gmail.com
