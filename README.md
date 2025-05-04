@@ -1,5 +1,5 @@
 # DSCollector
-"Telegram Dataset Collector - инструмент для сбора и анализа данных из Telegram-чатов с возможностью экспорта в удобные форматы(json)"
+"Telegram Dataset Collector is a tool for collecting and analyzing data from Telegram chats with the ability to export to convenient formats (json)"
 
 #EN
 This program was planned as a website, but then you have to host it... and it costs money._.
@@ -13,6 +13,8 @@ Next, in the browser, go to http://127.0.0.1:8080/
 Then it should be clear if you found bugs / something went wrong after all - write here -> serhkapec@gmail.com
 
 #RU
+Telegram Dataset Collector - инструмент для сбора и анализа данных из Telegram-чатов с возможностью экспорта в удобные форматы(json)
+
 Сея программа планировалась как сайт, но тогда ведь его надо хостить... а это стоит денег ._.
 Так что пользуемся как обычной программой и хостим своим же ПК
 DSC - DataSetCollector - програмка для парсинга тг-чатов (в будущем добавлю другие соцсети/сайты).
